@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
+import logo from '@assets/logo.png';
 
 export default function Groups() {
   return (
@@ -9,6 +10,7 @@ export default function Groups() {
         alignItems: "center",
       }}
     >
+      <Image source={logo}/>
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
