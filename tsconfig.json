@@ -5,8 +5,10 @@
     "paths": {
       "@/*": ["./*"],
       "@assets/*": ["./src/assets/*"],
-      "@screens/*": ["./src/screens/*"],
-    }
+      "@screens/*": ["./src/screens/*"]
+    },
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+    "types": ["styled-components"]
   },
   "include": [
     "**/*.ts",
