@@ -1,4 +1,4 @@
-import { ActivityIndicator } from "react-native";
+import { StatusBar } from "react-native";
 
 import Groups from "@screens/Groups";
 import { ThemeProvider } from "styled-components/native";
@@ -12,6 +12,11 @@ export default function Index() {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar 
+        barStyle="light-content"
+        backgroundColor="#202024"
+        translucent
+      />
       { fontsLoaded ? <Groups /> : <Loading /> }
     </ThemeProvider>
   );
