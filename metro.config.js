@@ -20,7 +20,6 @@ defaultConfig.resolver = {
 
 defaultConfig.server = {
   ...defaultConfig.server,
-  enableVisualizer: false, // Desabilita visualizador para economizar memória
 };
 
 module.exports = defaultConfig;
