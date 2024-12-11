@@ -1,10 +1,15 @@
-import { Container, Title, Subtitle } from "./style";
+import { Container, Title, Subtitle } from "./styles";
 
-export function Highlight(){
+type Props = {
+    title: string;
+    subtitle: string;
+}
+
+export function Highlight({title, subtitle}:Props){
     return (
         <Container>
-            <Title></Title>
-            <Subtitle></Subtitle>
+            <Title>{title}</Title>
+            <Subtitle>{subtitle}</Subtitle>
         </Container>
     )
 }

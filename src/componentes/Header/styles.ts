@@ -2,7 +2,6 @@ import styled from "styled-components/native";
 import {CaretLeft} from 'phosphor-react-native'
 
 export const Container = styled.View`
-    width: 90%;
     margin: 0 auto;
     flex-direction: row;
     align-items: center;
