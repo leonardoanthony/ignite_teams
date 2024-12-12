@@ -7,6 +7,8 @@ import { GroupCard } from "@/src/componentes/GroupCard";
 import { useState } from "react";
 import { FlatList } from "react-native";
 import { ListEmpty } from "@/src/componentes/ListEmpty";
+import { Button } from "@/src/componentes/Button";
+
 
 export default function Groups() {
 
@@ -36,6 +38,11 @@ export default function Groups() {
           />
         )}
 
+      />
+
+
+      <Button
+        title="Criar nova turma"
       />
     </Container>
   );
