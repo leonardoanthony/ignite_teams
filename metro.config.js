@@ -16,6 +16,8 @@ defaultConfig.resolver = {
     '@assets': './src/assets',
     '@screens': './src/screens',
   },
+  blockList: [/node_modules\/.*\/node_modules\/react-native\/.*/],
+  maxWorkers: 2, // Reduz a carga no sistema
 };
 
 defaultConfig.server = {
